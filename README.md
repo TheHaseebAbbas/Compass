@@ -9,5 +9,5 @@
 - **Kotlin**
 - **Usage of ```Accelerometer``` and ```Magnetometer```**
 
-
-Credits for Icon: <a href="https://www.freeiconspng.com/img/13549">Compass</a>
+## Acknowledgements
+- Credits for <a href="https://www.freeiconspng.com/img/13549">Compass Icon</a>
