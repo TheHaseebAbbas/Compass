@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvDegrees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="?colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        tools:text="0.0 N" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvDegrees"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/compassDial"
+            android:rotation="122"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_dial"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/compassNeedle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_needle"
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+</RelativeLayout>
